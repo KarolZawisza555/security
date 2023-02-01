@@ -2,8 +2,7 @@
   <div class="">
     <v-card class="mx-md-auto my-md-4" elevation="10" min-height="500" max-width="1260">
       <v-toolbar color="primary">
-        <v-app-bar-nav-icon></v-app-bar-nav-icon>
-        <v-toolbar-title>DO ROBOTY APP</v-toolbar-title>
+        <v-toolbar-title>Do your job</v-toolbar-title>
         <v-spacer></v-spacer>
         <v-btn @click="resetStores">
           RESET PINIA
