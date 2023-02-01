@@ -12,9 +12,6 @@
         Daily
         </th>
         <th class="text-left">
-          Day limit
-        </th>
-        <th class="text-left">
         MAX
         </th>
       </tr>
@@ -26,7 +23,6 @@
       >
         <td :class="`font-weight-black text-${item.process} text-h6`">{{ capitalize(item.process) }}</td>
         <td :class="`font-weight-black text-${item.process} text-h6`">{{ item.points }}</td>
-        <td :class="`d-xs-none d-sm-none d-md-flex font-weight-black text-${item.process} text-h6`">{{ item.percent }} %</td>
         <td :class="`font-weight-black text-${item.process} text-h6`">{{ item.dayLimitPoints }}</td>
         <td :class="`font-weight-black text-${item.process} text-h6`">{{ item.maxPoints }} </td>
       </tr>

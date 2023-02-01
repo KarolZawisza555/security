@@ -52,7 +52,7 @@ export default {
         { component: Sport, order: 2, name: "Sport", icon: "mdi-run-fast", color: "sport" },
         { component: Diet, order: 3, name: "Diet", icon: "mdi-food-variant", color: "diet" },
         { component: Habbits, order: 4, name: "Habbits", icon: "mdi-home", color: "habbits" },
-        { component: Work, order: 5, name: "Work", icon: "mdi-airplace-check", color: "work" },
+        { component: Work, order: 5, name: "Work", icon: "mdi-cash", color: "work" },
       ]
     }
   },
